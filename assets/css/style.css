@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contenedor-principal {
+    background-color: #eee;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.linea-separadora {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.entrada-seccion {
+    margin-bottom: 20px;
+}
+
+.etiqueta {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#input-tarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#boton-agregar {
+    background-color: #1a7a40;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumen {
+    width: 30%;
+}
+
+.lista-tareas {
+    width: 65%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+td {
+    padding: 5px 0;
+}
+
+.texto-completado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.boton-eliminar {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}

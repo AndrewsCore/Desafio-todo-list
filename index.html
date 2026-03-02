@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Todo List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <h1>Todo List</h1>
+        <div class="linea-separadora"></div>
+
+        <div class="entrada-seccion">
+            <span class="etiqueta">Nueva tarea</span>
+            <input type="text" id="input-tarea" placeholder="Escribe una tarea...">
+            <button id="boton-agregar">Agregar</button>
+        </div>
+
+        <div class="contenido">
+
+            <!-- Sección de contadores -->
+            <div class="resumen">
+                <p>Total: <strong id="total-tareas">0</strong></p>
+                <p>Realizadas: <strong id="tareas-realizadas">0</strong></p>
+            </div>
+
+            <!-- Tabla de tareas -->
+            <div class="lista-tareas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo-tabla">
+                        <!-- Las tareas se colocan aquí con JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+<script src="assets/js/funciones.js"></script>
+
+</body>
+</html>
